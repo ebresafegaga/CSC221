@@ -1,0 +1,15 @@
+C:\Users\EBRESAFE B\Documents\Lecture Notes\200\Omega\CSC221\Project\Northwind\Northwind.Common\bin\Debug\netstandard2.0\Northwind.Common.deps.json
+C:\Users\EBRESAFE B\Documents\Lecture Notes\200\Omega\CSC221\Project\Northwind\Northwind.Common\bin\Debug\netstandard2.0\Northwind.Common.dll
+C:\Users\EBRESAFE B\Documents\Lecture Notes\200\Omega\CSC221\Project\Northwind\Northwind.Common\bin\Debug\netstandard2.0\Northwind.Common.pdb
+C:\Users\EBRESAFE B\Documents\Lecture Notes\200\Omega\CSC221\Project\Northwind\Northwind.Common\bin\Debug\netstandard2.0\System.ComponentModel.DataAnnotations.dll
+C:\Users\EBRESAFE B\Documents\Lecture Notes\200\Omega\CSC221\Project\Northwind\Northwind.Common\bin\Debug\netstandard2.0\System.Configuration.dll
+C:\Users\EBRESAFE B\Documents\Lecture Notes\200\Omega\CSC221\Project\Northwind\Northwind.Common\bin\Debug\netstandard2.0\System.Security.dll
+C:\Users\EBRESAFE B\Documents\Lecture Notes\200\Omega\CSC221\Project\Northwind\Northwind.Common\bin\Debug\netstandard2.0\System.ComponentModel.DataAnnotations.xml
+C:\Users\EBRESAFE B\Documents\Lecture Notes\200\Omega\CSC221\Project\Northwind\Northwind.Common\bin\Debug\netstandard2.0\System.Configuration.xml
+C:\Users\EBRESAFE B\Documents\Lecture Notes\200\Omega\CSC221\Project\Northwind\Northwind.Common\bin\Debug\netstandard2.0\System.Security.xml
+C:\Users\EBRESAFE B\Documents\Lecture Notes\200\Omega\CSC221\Project\Northwind\Northwind.Common\obj\Debug\netstandard2.0\Northwind.Common.csprojAssemblyReference.cache
+C:\Users\EBRESAFE B\Documents\Lecture Notes\200\Omega\CSC221\Project\Northwind\Northwind.Common\obj\Debug\netstandard2.0\Northwind.Common.AssemblyInfoInputs.cache
+C:\Users\EBRESAFE B\Documents\Lecture Notes\200\Omega\CSC221\Project\Northwind\Northwind.Common\obj\Debug\netstandard2.0\Northwind.Common.AssemblyInfo.cs
+C:\Users\EBRESAFE B\Documents\Lecture Notes\200\Omega\CSC221\Project\Northwind\Northwind.Common\obj\Debug\netstandard2.0\Northwind.Common.csproj.CopyComplete
+C:\Users\EBRESAFE B\Documents\Lecture Notes\200\Omega\CSC221\Project\Northwind\Northwind.Common\obj\Debug\netstandard2.0\Northwind.Common.dll
+C:\Users\EBRESAFE B\Documents\Lecture Notes\200\Omega\CSC221\Project\Northwind\Northwind.Common\obj\Debug\netstandard2.0\Northwind.Common.pdb

@@ -1,0 +1,159 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETFramework,Version=v4.7.2": {
+      "EntityFramework/6.1.3": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System.ComponentModel.DataAnnotations"
+        ],
+        "compile": {
+          "lib/net45/EntityFramework.SqlServer.dll": {},
+          "lib/net45/EntityFramework.dll": {}
+        },
+        "runtime": {
+          "lib/net45/EntityFramework.SqlServer.dll": {},
+          "lib/net45/EntityFramework.dll": {}
+        }
+      },
+      "Northwind.Common/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/Northwind.Common.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Northwind.Common.dll": {}
+        }
+      },
+      "Northwind.Logic/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "EntityFramework": "6.2.0",
+          "Northwind.Common": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Northwind.Logic.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Northwind.Logic.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "EntityFramework/6.1.3": {
+      "sha512": "2xzFHAF3VVdmTR3//MygtQpwfbDjeaq+nQwCcokLzen7MKHOojPaxNPQPa4diHY1QtcR7zlHAJHNRqPB7W2Syw==",
+      "type": "package",
+      "path": "entityframework/6.1.3",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "content/App.config.transform",
+        "content/Web.config.transform",
+        "entityframework.6.1.3.nupkg.sha512",
+        "entityframework.nuspec",
+        "lib/net40/EntityFramework.SqlServer.dll",
+        "lib/net40/EntityFramework.SqlServer.xml",
+        "lib/net40/EntityFramework.dll",
+        "lib/net40/EntityFramework.xml",
+        "lib/net45/EntityFramework.SqlServer.dll",
+        "lib/net45/EntityFramework.SqlServer.xml",
+        "lib/net45/EntityFramework.dll",
+        "lib/net45/EntityFramework.xml",
+        "tools/EntityFramework.PowerShell.Utility.dll",
+        "tools/EntityFramework.PowerShell.dll",
+        "tools/EntityFramework.psd1",
+        "tools/EntityFramework.psm1",
+        "tools/about_EntityFramework.help.txt",
+        "tools/init.ps1",
+        "tools/install.ps1",
+        "tools/migrate.exe"
+      ]
+    },
+    "Northwind.Common/1.0.0": {
+      "type": "project",
+      "path": "../Northwind.Common/Northwind.Common.csproj",
+      "msbuildProject": "../Northwind.Common/Northwind.Common.csproj"
+    },
+    "Northwind.Logic/1.0.0": {
+      "type": "project",
+      "path": "../Northwind.Logic/Northwind.Logic.csproj",
+      "msbuildProject": "../Northwind.Logic/Northwind.Logic.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETFramework,Version=v4.7.2": [
+      "EntityFramework >= 6.1.3",
+      "Northwind.Common >= 1.0.0",
+      "Northwind.Logic >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\EBRESAFE B\\.nuget\\packages\\": {},
+    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\EBRESAFE B\\Documents\\Lecture Notes\\200\\Omega\\CSC221\\Project\\Northwind\\Northwind.UI\\Northwind.UI.csproj",
+      "projectName": "Northwind.UI",
+      "projectPath": "C:\\Users\\EBRESAFE B\\Documents\\Lecture Notes\\200\\Omega\\CSC221\\Project\\Northwind\\Northwind.UI\\Northwind.UI.csproj",
+      "packagesPath": "C:\\Users\\EBRESAFE B\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\EBRESAFE B\\Documents\\Lecture Notes\\200\\Omega\\CSC221\\Project\\Northwind\\Northwind.UI\\obj\\",
+      "projectStyle": "PackageReference",
+      "skipContentFileWrite": true,
+      "fallbackFolders": [
+        "C:\\Microsoft\\Xamarin\\NuGet\\"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\EBRESAFE B\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net472"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net472": {
+          "projectReferences": {
+            "C:\\Users\\EBRESAFE B\\Documents\\Lecture Notes\\200\\Omega\\CSC221\\Project\\Northwind\\Northwind.Common\\Northwind.Common.csproj": {
+              "projectPath": "C:\\Users\\EBRESAFE B\\Documents\\Lecture Notes\\200\\Omega\\CSC221\\Project\\Northwind\\Northwind.Common\\Northwind.Common.csproj"
+            },
+            "C:\\Users\\EBRESAFE B\\Documents\\Lecture Notes\\200\\Omega\\CSC221\\Project\\Northwind\\Northwind.Logic\\Northwind.Logic.csproj": {
+              "projectPath": "C:\\Users\\EBRESAFE B\\Documents\\Lecture Notes\\200\\Omega\\CSC221\\Project\\Northwind\\Northwind.Logic\\Northwind.Logic.csproj"
+            }
+          }
+        }
+      }
+    },
+    "frameworks": {
+      "net472": {
+        "dependencies": {
+          "EntityFramework": {
+            "target": "Package",
+            "version": "[6.1.3, )"
+          }
+        }
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "NU1605",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Detected package downgrade: EntityFramework from 6.2.0 to 6.1.3. Reference the package directly from the project to select a different version. \r\n Northwind.UI -> Northwind.Logic -> EntityFramework (>= 6.2.0) \r\n Northwind.UI -> EntityFramework (>= 6.1.3)",
+      "libraryId": "EntityFramework",
+      "targetGraphs": [
+        ".NETFramework,Version=v4.7.2"
+      ]
+    }
+  ]
+}
